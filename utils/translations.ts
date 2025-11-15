@@ -66,7 +66,7 @@ export const translations = {
   exploreInsights: { // This will now be unused but kept for historical context
     en: "Explore your insights and manage your AI tools from here.",
     hi: "यहां से अपनी जानकारी का अन्वेषण करें और अपने एआई टूल प्रबंधित करें।",
-    bn: "আপনার অন্তর্দৃষ্টি অন্বেষণ করুন এবং এখান से আপনার এআই সরঞ্জামগুলি পরিচালনা করুন।",
+    bn: "আপনার অন্তর্দৃষ্টি অন্বেষণ করুন এবং এখান থেকে আপনার এআই সরঞ্জামগুলি পরিচালনা करें।",
   },
   goToYouTube: {
     en: "Go to YouTube Channel",
@@ -75,7 +75,7 @@ export const translations = {
   },
   goToTelegramChannel: {
     en: "Go to Telegram Channel",
-    hi: "टेलीগ্রাম चैनल पर जाएं",
+    hi: "टेलीग्राम चैनल पर जाएं",
     bn: "টেলিগ্রাম চ্যানেলে যান",
   },
   goToTelegramSupport: {
@@ -116,7 +116,7 @@ export const translations = {
   checkInputOrApiKey: {
     en: "Please check your input or API key configuration.",
     hi: "कृपया अपना इनपुट या एपीआई कुंजी कॉन्फ़िगरेशन जांचें।",
-    bn: "আপনার ইনপুট বা API কী কনফিगरেশন পরীক্ষা করুন।",
+    bn: "আপনার ইনপুট বা API কী কনফিগারেশন পরীক্ষা করুন।",
   },
   selectApiKey: {
     en: "Select API Key",
@@ -136,7 +136,7 @@ export const translations = {
   fileInformation: {
     en: "File Information:",
     hi: "फ़ाइल जानकारी:",
-    bn: "ফাইল তথ্য:",
+    bn: "ফाइल তথ্য:",
   },
   fileName: {
     en: "File Name:",
@@ -211,7 +211,7 @@ export const translations = {
   developer: {
     en: "Developer:",
     hi: "डेवलपर:",
-    bn: "ডেভেলপার:",
+    bn: "ডেवलपर:",
   },
   features: {
     en: "Features:",
@@ -221,7 +221,7 @@ export const translations = {
   noAuthRequired: { // Old text, will be replaced/modified
     en: "No login or authentication is required for this application.",
     hi: "इस एप्लिकेशन के लिए किसी लॉगिन या प्रमाणीकरण की आवश्यकता नहीं है।",
-    bn: "এই অ্যাপ্লিकेশনের জন্য কোন লগइन या প্রমাণীকরণের आवश्यकता নেই।",
+    bn: "এই অ্যাপ্লিकेশনের জন্য কোন লগइन या প্রমাণীকরণের आवश्यकता नहीं है।",
   },
   aiIsThinking: {
     en: "AI is thinking...",
@@ -241,7 +241,7 @@ export const translations = {
   startConversation: {
     en: "Start a conversation with {appName}!",
     hi: "{appName} के साथ बातचीत शुरू करें!",
-    bn: "{appName} এর সাথে কথোপকথन শুরু করুন!",
+    bn: "{appName} এর সাথে কথোপকথন শুরু করুন!",
   },
   typeMessageBelow: {
     en: "Type your message in the box below.",
@@ -279,8 +279,8 @@ export const translations = {
     bn: "চালিয়ে যাওয়ার জন্য অনুগ্রহ করে আপনার পছন্দের ভাষা নির্বাচন করুন:",
   },
   english: { en: "English", hi: "अंग्रेज़ी", bn: "ইংরেজি" },
-  hindi: { en: "Hindi", hi: "हिंदी", bn: "হিন্দি" },
-  bengali: { en: "Bengali", hi: "বंगाली", bn: "বাঙালি" },
+  hindi: { en: "Hindi", hi: "हिंदी", bn: "বাঙালি" },
+  bengali: { en: "Bengali", hi: "बंगाली", bn: "বাঙালি" },
   attachImage: {
     en: "Attach Image",
     hi: "छवि संलग्न करें",
@@ -425,7 +425,7 @@ export const translations = {
   fullNameLabel: {
     en: "Full Name:",
     hi: "पूरा नाम:",
-    bn: "পুরো নাম:",
+    bn: "পুরो नाम:",
   },
   emailLabel: {
     en: "Email:",
@@ -440,7 +440,7 @@ export const translations = {
   authRequiredNote: {
     en: "Authentication is now required to access the application features.",
     hi: "एप्लिकेशन सुविधाओं तक पहुंचने के लिए अब प्रमाणीकरण आवश्यक है।",
-    bn: "অ্যাপ্লিকেশন বৈশিষ্ট্য অ্যাক্সেস করার জন্য এখন প্রমাণীকরণ প্রয়োজন।",
+    bn: "অ্যাপ্লিকেশন বৈশিষ্ট্য অ্যাক্সেস করার लिए अब প্রমাণীকরণ প্রয়োজন।",
   },
   allFieldsRequired: {
     en: "All fields are required.",
@@ -496,7 +496,7 @@ export const translations = {
   downloadUrlPlaceholder: {
     en: "Download URL (e.g., https://example.com/file.pdf)",
     hi: "डाउनलोड यूआरएल (उदाहरण के लिए, https://example.com/file.pdf)",
-    bn: "ডাউনলোড ইউআরএল (যেমন, https://example.com/file.pdf)",
+    bn: "ডাউনলোড ইউআরएल (যেমন, https://example.com/file.pdf)",
   },
   addUpdateFile: {
     en: "Add/Update File",
@@ -555,11 +555,11 @@ export const translations = {
     bn: "ব্যবহারকারী হিসাবে",
   },
   // New TempMail specific translations from the provided HTML
-  arTempmail: { en: "AR TEMPMAIL", hi: "एआर टेम्पमेल", bn: "এআর টেম্পমেল" },
+  arTempmail: { en: "AR TEMPMAIL", hi: "एआर टेम्पमेल", bn: "এআর টেম्पमेल" },
   noLoginSignupPrivacy: { en: "No Login, No Signup, Just Privacy.", hi: "कोई लॉगिन नहीं, कोई साइनअप नहीं, बस गोपनीयता।", bn: "লগইন নেই, সাইনআপ নেই, শুধু গোপনীয়তা।" },
   changeMail: { en: "Change Mail", hi: "मेल बदलें", bn: "মেল পরিবর্তন করুন" },
-  deleteMail: { en: "Delete Mail", hi: "मेल हटाएँ", bn: "মেল মুছুন" },
-  yourTempEmailAddress: { en: "Your temporary email address:", hi: "आपका अस्थायी ईमेल पता:", bn: "আপনার অস্থায়ী ইমেল ঠিকানা:" },
+  deleteMail: { en: "Delete Mail", hi: "मेल हटाएँ", bn: "মেল মুछুন" },
+  yourTempEmailAddress: { en: "Your temporary email address:", hi: "आपका अस्थायी ईमेल पता:", bn: "আপনার অস্থায়ী ইमेल ঠিকানা:" },
   copy: { en: "Copy", hi: "कॉपी करें", bn: "কপি করুন" },
   copied: { en: "Copied!", hi: "कॉपी किया गया!", bn: "কপি করা হয়েছে!" },
   emailLifetime: { en: "Email lifetime", hi: "ईमेल जीवनकाल", bn: "ইমেল জীবনকাল" },
@@ -574,12 +574,12 @@ export const translations = {
   newEmailGenerated: { en: "New email address generated!", hi: "नया ईमेल पता उत्पन्न हुआ!", bn: "নতুন ইমেল ঠিকানা তৈরি হয়েছে!" },
   failedToConnectRetrying: { en: "Failed to connect. Retrying...", hi: "कनेक्ट करने में विफल। पुनः प्रयास किया जा रहा है...", bn: "সংযুক্ত হতে ব্যর্থ। পুনরায় চেষ্টা করা হচ্ছে..." },
   errorGeneratingEmail: { en: "Error generating email", hi: "ईमेल उत्पन्न करने में त्रुटि", bn: "ইমেল তৈরি করতে ত্রুটি" },
-  failedToCheckInbox: { en: "Failed to check inbox", hi: "इनबॉक्स जांचने में विफल", bn: "ইনবক্স চেক করতে ব্যর্থ" },
+  failedToCheckInbox: { en: "Failed to check inbox", hi: "इनबॉक्स जांचने में विफल", bn: "ইনবক্স চেক করতে ব্যর্থ" }, // Keep this, but use new specific one for Mail.tm
   loadingEmail: { en: "Loading email...", hi: "ईमेल लोड हो रहा है...", bn: "ইমেল লোড হচ্ছে..." },
   errorLoadingEmail: { en: "Error loading email", hi: "ईमेल लोड करने में त्रुटि", bn: "ইমেল লোড করতে ত্রুটি" },
   timerExpired: { en: "Timer expired! Extend or get new email.", hi: "टाइमर समाप्त! विस्तार करें या नया ईमेल प्राप्त करें।", bn: "টাইমার শেষ! বাড়ান বা নতুন ইমেল পান।" },
   timerReset: { en: "Timer reset to 10 minutes!", hi: "टाइमर 10 मिनट पर रीसेट!", bn: "টাইমার 10 মিনিটে রিসেট হয়েছে!" },
-  failedToCopy: { en: "Failed to copy!", hi: "कॉपी करने में विफल!", bn: "কপি করতে ব্যর্থ!" },
+  failedToCopy: { en: "Failed to copy!", hi: "कॉपी करने में विफल!", bn: "কপি करने में विफल!" },
   deletingEmail: { en: "Deleting this email...", hi: "यह ईमेल हटा रहा हूँ...", bn: "এই ইমেল মুছে ফেলা হচ্ছে..." },
   deletingMessage: { en: "Deleting message...", hi: "संदेश हटा रहा हूँ...", bn: "বার্তা মুছে ফেলা হচ্ছে..." },
   messageDeleted: { en: "Message deleted!", hi: "संदेश हटा दिया गया!", bn: "বার্তা মুছে ফেলা হয়েছে!" },
@@ -589,7 +589,21 @@ export const translations = {
   minAgo: { en: "{minutes} min ago", hi: "{minutes} मिनट पहले", bn: "{minutes} মিনিট আগে" },
   hAgo: { en: "{hours}h ago", hi: "{hours} घंटे पहले", bn: "{hours} ঘন্টা আগে" },
   clickToReadMessage: { en: "Click to read message...", hi: "संदेश पढ़ने के लिए क्लिक करें...", bn: "বার্তা পড়তে ক্লিক করুন..." },
-  requestTimedOut: { en: "Request timed out", hi: "अनुरोध का समय समाप्त हो गया", bn: "অনুরোধের সময় শেষ হয়ে গেছে" },
+  requestTimedOut: { en: "Request timed out", hi: "अनुरोध का समय समाप्त हो गया", bn: "অনুরোধের সময় শেষ हो गया" },
+
+  // New specific TempMail error/info messages
+  failedToConnectNetwork: { en: "Failed to connect to Mail.tm service. Please check your internet connection.", hi: "Mail.tm सेवा से कनेक्ट करने में विफल। कृपया अपना इंटरनेट कनेक्शन जांचें।", bn: "Mail.tm পরিষেবার সাথে সংযোগ করতে ব্যর্থ। আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন।" },
+  tempMailFailedToGetDomains: { en: "Failed to get temporary email domains from Mail.tm. The service might be temporarily unavailable.", hi: "Mail.tm से अस्थायी ईमेल डोमेन प्राप्त करने में विफल। सेवा अस्थायी रूप से अनुपलब्ध हो सकती है।", bn: "Mail.tm থেকে অস্থায়ী ইমেল ডোমেন পেতে ব্যর্থ। পরিষেবাটি অস্থায়ীভাবে অনুপলব্ধ হতে পারে।" },
+  tempMailNoAvailableDomains: { en: "No available temporary email domains found from Mail.tm.", hi: "Mail.tm से कोई उपलब्ध अस्थायी ईमेल डोमेन नहीं मिला।", bn: "Mail.tm থেকে কোনো উপলব্ধ অস্থায়ী ইমেল ডোমেন পাওয়া যায়নি।" },
+  tempMailFailedToCreateAccount: { en: "Failed to create a new temporary email account on Mail.tm. The service might be busy or have issues.", hi: "Mail.tm पर एक नया अस्थायी ईमेल खाता बनाने में विफल। सेवा व्यस्त या समस्याग्रस्त हो सकती है।", bn: "Mail.tm এ নতুন অস্থায়ী ইমেল অ্যাকাউন্ট তৈরি করতে ব্যর্থ। পরিষেবাটি ব্যস্ত বা সমস্যাযুক্ত হতে পারে।" },
+  tempMailFailedToGetToken: { en: "Failed to get authentication token from Mail.tm. Please try again.", hi: "Mail.tm से प्रमाणीकरण टोकन प्राप्त करने में विफल। कृपया पुनः प्रयास करें।", bn: "Mail.tm থেকে প্রমাণীকরণ টোকেন পেতে ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।" },
+  tempMailFailedToCheckInbox: { en: "Failed to check inbox from Mail.tm. The service might be down or you might have network issues.", hi: "Mail.tm से इनबॉक्स जांचने में विफल। सेवा डाउन हो सकती है या आपके नेटवर्क में समस्या हो सकती है।", bn: "Mail.tm থেকে ইনবক্স চেক করতে ব্যর্থ। পরিষেবাটি ডাউন হতে পারে বা আপনার নেটওয়ার্ক সমস্যা থাকতে পারে।" },
+  refreshingInbox: { en: "Refreshing inbox...", hi: "इनबॉक्स ताज़ा कर रहा हूँ...", bn: "ইনবক্স রিফ্রেশ করা হচ্ছে..." },
+  tempMailFailedToGenerateAddress: { en: "Failed to generate email address. Please try again.", hi: "ईमेल पता बनाने में विफल। कृपया पुनः प्रयास करें।", bn: "ইমেল ঠিকানা তৈরি করতে ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।" },
+  tempMailTooManyRequests: { en: "Too many requests. Please wait a moment.", hi: "बहुत अधिक अनुरोध। कृपया एक क्षण प्रतीक्षा करें।", bn: "অনেক বেশি অনুরোধ। অনুগ্রহ করে একটু অপেক্ষা করুন।" },
+  tempMailTooManyRequestsWithRetry: { en: "Too many requests. Retrying in {delayInSeconds} seconds...", hi: "बहुत अधिक अनुरोध। {delayInSeconds} सेकंड में पुनः प्रयास किया जा रहा है...", bn: "অনেক বেশি অনুরোধ। {delayInSeconds} সেকেন্ডের মধ্যে আবার চেষ্টা করা হচ্ছে..." },
+  errorDeletingEmailAccount: { en: "Error deleting email account.", hi: "ईमेल खाता हटाने में त्रुटि।", bn: "ইমেল অ্যাকাউন্ট মুছে ফেলতে ত্রুটি।" },
+  errorDeletingMessage: {en: "Error deleting message.", hi: "संदेश हटाने में त्रुटि।", bn: "বার্তা মুছে ফেলতে ত্রুটি।"},
 };
 
 export type TranslationKeys = keyof typeof translations;
