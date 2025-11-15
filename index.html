@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title> <!-- Title will be set dynamically by React -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <style>
         @keyframes fadeInSlideUp {
             from { opacity: 0; transform: translateY(10px); }
@@ -359,6 +361,66 @@
             100% { transform: rotate(360deg); }
         }
 
+        /* Custom Scrollbar for better UX */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 8px; /* width of the scrollbar */
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #2D3748; /* Darker track */
+            border-radius: 10px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #FFCC00; /* Yellow thumb */
+            border-radius: 10px;
+            border: 2px solid #2D3748; /* Padding around thumb */
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #FFA500; /* Orange-yellow on hover */
+        }
+
+        /* TempMail specific styles */
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+        
+        #email-detail-body a {
+            color: #FFCC00; /* Adapted to app's primary yellow */
+            text-decoration: underline;
+        }
+        #email-detail-body p {
+            margin-bottom: 1rem;
+        }
+
+        /* Hide scrollbars */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
+
+        /* Loading spinner for buttons - adapted to app's theme */
+        .spinner {
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #FFCC00; /* App's primary yellow */
+            width: 1.25rem; /* 20px */
+            height: 1.25rem; /* 20px */
+            animation: spin 1s ease-in-out infinite;
+        }
+        .spinner-dark { /* If needed, for buttons with dark backgrounds */
+            border-color: rgba(10, 10, 10, 0.3); /* app's dark background */
+            border-top-color: #0A0A0A; /* app's dark background */
+        }
+        /* Reusing existing spin keyframe */
     </style>
 <script type="importmap">
 {

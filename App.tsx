@@ -9,6 +9,7 @@ import LoginView from './components/LoginView'; // New: Login View
 import SignUpView from './components/SignUpView'; // New: Sign Up View
 import AdminLoginView from './components/AdminLoginView'; // New: Admin Login View
 import AdminDashboardView from './components/AdminDashboardView'; // New: Admin Dashboard View
+import TempMailView from './components/TempMailView'; // New: TempMailView
 import { geminiService } from './services/geminiService';
 import { ChatMessage as TChatMessage } from './types';
 import { useLanguage } from './contexts/LanguageContext';
@@ -20,7 +21,7 @@ function App() {
   const [messages, setMessages] = useState<TChatMessage[]>([]);
   const [isLoading, setIsLoading] = useState(false); // Managed directly by useState
   const [error, setError] = useState<string | null>(null);
-  const [currentView, setCurrentView] = useState<'chat' | 'dashboard' | 'sources' | 'profile' | 'login' | 'signup' | 'adminLogin' | 'adminDashboard'>('login'); // Default to login
+  const [currentView, setCurrentView] = useState<'chat' | 'dashboard' | 'sources' | 'profile' | 'login' | 'signup' | 'adminLogin' | 'adminDashboard' | 'tempMail'>('login'); // Default to login, added tempMail
   const [showLanguageSelector, setShowLanguageSelector] = useState(true);
 
   const chatEndRef = useRef<HTMLDivElement>(null);
@@ -58,7 +59,7 @@ function App() {
         // If logged in (as regular user), ensure we are not on a login/signup/adminLogin view
         if (['login', 'signup', 'adminLogin'].includes(currentView)) {
           setCurrentView('dashboard');
-        } else if (!['chat', 'dashboard', 'sources', 'profile', 'adminDashboard'].includes(currentView)) {
+        } else if (!['chat', 'dashboard', 'sources', 'profile', 'adminDashboard', 'tempMail'].includes(currentView)) { // Added tempMail
           // If somehow on an unknown view after login, default to dashboard
           setCurrentView('dashboard');
         }
@@ -261,6 +262,10 @@ function App() {
           {currentView === 'profile' && (
             <ProfileView currentUser={user} onLogout={logout} /> // Pass user and logout to Profile
           )}
+
+          {currentView === 'tempMail' && ( // New: Render TempMailView
+            <TempMailView />
+          )}
         </div>
       </main>
 
@@ -306,6 +311,18 @@ function App() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
                     </svg>
                     {t('aiChat')}
+                  </button>
+                </li>
+                <li> {/* New Temp-Mail Navigation Item */}
+                  <button
+                    onClick={() => handleNavClick('tempMail')}
+                    className={`nav-item ${currentView === 'tempMail' ? 'active' : ''}`}
+                    aria-current={currentView === 'tempMail' ? 'page' : undefined}
+                  >
+                    <svg className={`w-6 h-6 stroke-[1.8px] ${currentView === 'tempMail' ? 'animate-active-icon-flourish' : 'animate-inactive-icon-pulse'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 4H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zM5 7.5L12 13l7-5.5V6L12 11 5 6V7.5z"></path>
+                    </svg>
+                    {t('tempMail')}
                   </button>
                 </li>
                 <li>
